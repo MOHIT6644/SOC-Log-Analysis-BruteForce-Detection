@@ -132,6 +132,16 @@ Severity:<br>
 - Medium: 5-9<br>
 - Low: < 5<br>
 
+
+## [HIGH] Brute Force Attack Detected
+<br>
+Source IP: 192.168.1.50<br>
+Failed Attempts: 15<br>
+Target User: Administrator<br >
+
+MITRE Technique:<br>
+T1110 - Brute Force<br>
+
 ## Skills Demonstrated
 
 - Log Analysis<br>
