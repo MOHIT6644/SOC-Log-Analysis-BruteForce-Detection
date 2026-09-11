@@ -26,7 +26,7 @@ This project analyzes Windows authentication logs and identifies brute force att
 
 Successfully identified malicious login attempts, generated alerts, mapped activity to MITRE ATT&CK T1110, and documented incident response actions.
 
-PROJECT STRUCTURE
+## PROJECT STRUCTURE
 
 ├── Alerts<br>
 │   └── alerts.txt
@@ -44,5 +44,5 @@ PROJECT STRUCTURE
 
 ├── Src<br>
 │   └── log_detector.py<br>
-
+<br>
 └── README.md
