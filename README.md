@@ -46,3 +46,36 @@ Successfully identified malicious login attempts, generated alerts, mapped activ
 │   └── log_detector.py<br>
 <br>
 └── README.md
+
+## Detection Logic
+
+### Brute Force Detection
+Trigger:<br>
+- 5 or more failed logins from same IP<br>
+<br>
+Severity:<br>
+- HIGH = 10+<br>
+- MEDIUM = 5-9<br>
+- LOW = < 5 <br>
+
+### Password Spraying Detection
+Trigger:<br>
+- One source targets multiple accounts<br>
+
+### Account Lockout Risk 
+Trigger:<br>
+- User receives 5+ failed logins<br>
+
+## MITRE Mapping Table
+<br>
+| Technique ID | Technique |
+|--------------|-----------|
+| T1110 | Brute Force |
+
+## Future Improvements
+<br>
+- Splunk Integration<br>
+- Real-time Log Monitoring<br>
+- Email Alerting<br>
+- Dashboard Visualizations<br>
+- Threat Intelligence Feed Integration<br>
