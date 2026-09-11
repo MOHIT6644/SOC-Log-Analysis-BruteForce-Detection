@@ -34,7 +34,7 @@ PROJECT STRUCTURE
 ├── Logs
 │   └── windows_logs.csv
 
-├── Reports
+├── Reports<br>
 │   ├── investigation_report.txt<br>
 │   ├── case_report.txt<br>
 │   ├── executive_summary.txt<br>
