@@ -68,14 +68,92 @@ Trigger:<br>
 
 ## MITRE Mapping Table
 <br>
-| Technique ID | Technique |<br>
-|--------------|-----------|<br>
-| T1110 | Brute Force |<br>
+| Technique ID | Technique | Tactics |<br>
+|--------------|-----------|---------|<br>
+| T1110 | Brute Force | Credential Access <br>
 
 ## Future Improvements
 <br>
 - Splunk Integration<br>
 - Real-time Log Monitoring<br>
-- Email Alerting<br>
 - Dashboard Visualizations<br>
-- Threat Intelligence Feed Integration<br>
+
+## Screenshots
+
+### Detection Results
+![Detection Results](Reports/screenshots/detection_results.png)<br>
+
+### MITRE Mapping
+![MITRE Mapping](Reports/screenshots/mitre_mapping.png)<br>
+
+### IOC Report
+![IOC Report](Reports/screenshots/ioc_report.png)<br>
+
+
+## Investigation Workflow
+
+1. Collect Windows Authentication Logs<br>
+2. Parse Log Data<br>
+3. Detect Failed Logins<br>
+4. Identify Brute Force Patterns<br>
+5. Extract IOCs<br>
+6. Map Technique to MITRE ATT&CK<br>
+7. Generate Alerts<br>
+8. Produce Investigation Report<br>
+
+## Indicators of Compromise
+
+| IOC Type | Value |<br>
+|-----------|--------|<br>
+| Source IP | 192.168.1.50 |<br>
+| Username | Administrator |<br>
+| Event ID | 4625 |<br>
+| Technique | T1110 |<br>
+
+## Windows Event IDs Used
+
+| Event ID | Description |<br>
+|-----------|-------------|<br>
+| 4624 | Successful Login |<br>
+| 4625 | Failed Login |<br>
+| 4740 | Account Locked |<br>
+
+## Detection Rules
+
+### Brute Force
+
+Condition:<br>
+- Same IP<br>
+- 5+ failed logins<br>
+- Within short period<br>
+<br>
+Severity:<br>
+- High: 10+<br>
+- Medium: 5-9<br>
+- Low: < 5<br>
+
+## Skills Demonstrated
+
+- Log Analysis<br>
+- Incident Investigation<br>
+- IOC Identification<br>
+- MITRE ATT&CK Mapping<br>
+- Threat Detection<br>
+- Python Automation<br>
+- Windows Security Monitoring<br>
+- Alert Generation<br>
+
+
+## Incident Summary
+
+Detected 15 failed login attempts from a single source IP against the Administrator account.<br>
+
+Classification: High Severity<br>
+
+MITRE Technique:<br>
+T1110 - Brute Force<br>
+
+Recommended Actions:<br>
+- Block Source IP<br>
+- Reset Credentials<br>
+- Review Authentication Logs<br>
