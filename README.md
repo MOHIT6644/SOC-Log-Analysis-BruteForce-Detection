@@ -78,17 +78,16 @@ Trigger:<br>
 - Real-time Log Monitoring<br>
 - Dashboard Visualizations<br>
 
-## Screenshots
+## Project Screenshots
 
-### Detection Results
-![Detection Results](DetectionResult.png)<br>
+### Detection Engine
+![Detection](Screenshots/detection_engine.png)
 
-### MITRE Mapping
-![MITRE Mapping](Reports/screenshots/mitre_mapping.png)<br>
+### IOC & Timeline Analysis
+![IOC](Screenshots/ioc_timeline.png)
 
-### IOC Report
-![IOC Report](Reports/screenshots/ioc_report.png)<br>
-
+### Account Abuse Detection
+![Account Abuse](Screenshots/account_lockout.png)
 
 ## Investigation Workflow
 
