@@ -68,9 +68,9 @@ Trigger:<br>
 
 ## MITRE Mapping Table
 <br>
-| Technique ID | Technique |
-|--------------|-----------|
-| T1110 | Brute Force |
+| Technique ID | Technique |<br>
+|--------------|-----------|<br>
+| T1110 | Brute Force |<br>
 
 ## Future Improvements
 <br>
