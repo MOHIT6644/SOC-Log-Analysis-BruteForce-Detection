@@ -169,3 +169,6 @@ Recommended Actions:<br>
 - Block Source IP<br>
 - Reset Credentials<br>
 - Review Authentication Logs<br>
+
+## Installation Section<br>
+Pandas==2.3.2<br>
