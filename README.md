@@ -81,7 +81,7 @@ Trigger:<br>
 ## Screenshots
 
 ### Detection Results
-![Detection Results](Reports/screenshots/detection_results.png)<br>
+![Detection Results](DetectionResult.png)<br>
 
 ### MITRE Mapping
 ![MITRE Mapping](Reports/screenshots/mitre_mapping.png)<br>
