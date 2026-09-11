@@ -104,7 +104,7 @@ Trigger:<br>
 ## Indicators of Compromise
 
 | IOC Type | Value |<br>
-|-----------|--------|<br>
+|----------|-------|<br>
 | Source IP | 192.168.1.50 |<br>
 | Username | Administrator |<br>
 | Event ID | 4625 |<br>
