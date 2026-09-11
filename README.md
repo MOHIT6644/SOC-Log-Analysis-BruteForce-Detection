@@ -28,10 +28,10 @@ Successfully identified malicious login attempts, generated alerts, mapped activ
 
 PROJECT STRUCTURE
 
-├── Alerts
+├── Alerts<br>
 │   └── alerts.txt
 
-├── Logs
+├── Logs<br>
 │   └── windows_logs.csv
 
 ├── Reports<br>
@@ -42,7 +42,7 @@ PROJECT STRUCTURE
 │   ├── mitre_mapping.txt<br>
 │   └── ioc_report.txt<br>
 
-├── Src
-│   └── log_detector.py
+├── Src<br>
+│   └── log_detector.py<br>
 
 └── README.md
