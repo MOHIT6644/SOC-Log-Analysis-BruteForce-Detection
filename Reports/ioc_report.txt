@@ -1,0 +1,12 @@
+IOC REPORT
+
+Malicious IPs
+
+192.168.1.100
+10.0.0.5
+
+Threat Type:
+Brute Force Attack
+
+MITRE:
+T1110

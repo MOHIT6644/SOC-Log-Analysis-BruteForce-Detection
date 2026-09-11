@@ -1,0 +1,15 @@
+SOC ANALYST RECOMMENDATIONS
+
+1. Block malicious IP addresses.
+
+2. Enable Multi-Factor Authentication (MFA).
+
+3. Reset passwords for affected accounts.
+
+4. Review account lockout policies.
+
+5. Monitor authentication logs for recurring attacks.
+
+6. Create SIEM alert for repeated failed logins.
+
+7. Conduct threat hunting for related activity.

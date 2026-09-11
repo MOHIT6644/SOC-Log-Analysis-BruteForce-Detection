@@ -1,0 +1,25 @@
+    EXECUTIVE SUMMARY
+
+Incident Type:
+Brute Force Attack
+
+Severity:
+Medium
+
+Affected Accounts:
+admin
+administrator
+
+Source Countries:
+India
+China
+Russia
+
+MITRE ATT&CK:
+T1110 - Brute Force
+
+Impact:
+Unauthorized access attempts against privileged accounts.
+
+Recommendation:
+Block source IPs and enforce MFA.

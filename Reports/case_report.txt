@@ -1,0 +1,27 @@
+CASE ID: SOC-001
+
+Incident Type:
+Brute Force Attack
+
+Detection Source:
+Windows Authentication Logs
+
+Severity:
+Medium
+
+Affected Users:
+admin
+administrator
+
+Malicious IPs:
+192.168.1.100
+10.0.0.5
+
+MITRE ATT&CK:
+T1110 - Brute Force
+
+Recommendation:
+Block malicious IPs.
+Reset affected accounts.
+Enable MFA.
+Monitor future authentication attempts.

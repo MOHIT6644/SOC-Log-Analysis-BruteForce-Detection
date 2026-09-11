@@ -1,0 +1,21 @@
+INCIDENT REPORT
+
+Incident Type:
+Brute Force Attack
+
+Affected Accounts:
+admin
+john
+
+Attacking IPs:
+192.168.1.100
+10.0.0.5
+
+Severity:
+MEDIUM
+
+Recommendation:
+Reset passwords
+Enable MFA
+Block attacking IPs
+Review authentication logs

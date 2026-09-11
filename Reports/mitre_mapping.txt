@@ -1,0 +1,10 @@
+MITRE ATT&CK
+
+Technique:
+T1110
+
+Name:
+Brute Force
+
+Description:
+Adversaries attempt many passwords to gain account access.
