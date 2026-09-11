@@ -35,12 +35,12 @@ PROJECT STRUCTURE
 │   └── windows_logs.csv
 
 ├── Reports
-│   ├── investigation_report.txt
-│   ├── case_report.txt
-│   ├── executive_summary.txt
-│   ├── recommendations.txt
-│   ├── mitre_mapping.txt
-│   └── ioc_report.txt
+│   ├── investigation_report.txt<br>
+│   ├── case_report.txt<br>
+│   ├── executive_summary.txt<br>
+│   ├── recommendations.txt<br>
+│   ├── mitre_mapping.txt<br>
+│   └── ioc_report.txt<br>
 
 ├── Src
 │   └── log_detector.py
