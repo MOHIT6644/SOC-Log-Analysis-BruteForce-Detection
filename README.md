@@ -82,7 +82,7 @@ Trigger:<br>
 <br>
 
 ### Detection Engine
-![Detection dashboard for a SOC log analysis tool, showing a dark terminal interface with a timeline of suspicious activity, failed login counts, IOC summaries, and source country analysis. The display uses green and cyan text on a black background and emphasizes an active brute force investigation. Text visible includes Attack Timeline, IOC Summary, and Source Countries, with a serious, alert-driven tone.](Screenshots/detection_engine.png)
+(Screenshots/detection_engine.png)
 
 ### IOC & Timeline Analysis
 ![IOC and timeline analysis screen showing a chronological attack sequence, flagged malicious IP addresses, and a summary of suspicious activity across multiple countries. The interface is a dark security dashboard with technical text and numerical counts, highlighting a brute force campaign and an investigative workflow. Text visible includes malicious IPs found and source countries, with a tense, high-alert tone.](Screenshots/ioc_timeline.png)
